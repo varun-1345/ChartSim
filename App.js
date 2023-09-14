@@ -74,7 +74,7 @@ function App() {
           </div>
           <br></br>
         </div>
-        <br></br>
+
         
         <div className="tableclass">
           <table className="table table-bordered border-primary custom-table">
@@ -126,22 +126,14 @@ function App() {
                 <td contentEditable="true"> </td>
                 <td contentEditable="true"> </td>
               </tr>
-              <tr>
-                <th scope="row">9</th>
-                <td contentEditable="true"> </td>
-                <td contentEditable="true"> </td>
-              </tr>
             </tbody>
           </table>
-          
         </div>
-        
         <button type="button" className="btn btn-primary mx-2 my-1">
           Calculate
         </button>
-      <Rightcomp></Rightcomp>
-        
       </div>
+      <Rightcomp></Rightcomp>
     </>
   );
 }
