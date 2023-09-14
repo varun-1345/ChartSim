@@ -1,0 +1,87 @@
+
+/*.rightcont{
+  display:flex;
+  flex-direction:row-reverse;
+  justify-content: flex-start;
+}
+.item{
+  padding:0;
+  width:10rem;
+  height:10rem;
+  background-color:aliceblue;
+}*/
+.box{
+  margin-left:49%;
+}
+.box1{
+  background-color:white;
+  width:30rem;
+  height:28rem;
+}
+/* Default styles for .box1 */
+.box1 {
+  background-color: white;
+  width: 31rem;
+  height: 31rem;
+}
+
+/* Media query for screens smaller than 768px (adjust the breakpoint as needed) */
+@media (max-width: 768px) {
+  .box1 {
+    width: 100%; /* Make the box1 width 100% of the container */
+    height: auto; /* Let the height adjust based on content */
+  }
+}
+
+.type {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 20px;
+  width: fit-content;
+  overflow: hidden;
+  animation: typing 5s;
+  transition: smooth;
+  white-space: nowrap;
+  margin-left:30px;
+  
+}
+@keyframes typing {
+  from {
+    width: 0;
+   
+  }
+  to {
+    width: 100%;
+    
+  }
+}
+.left-container{
+  margin-left: 30px;
+  padding:6px;
+  border-radius:10px;
+  box-shadow:10px 10px rgba(0, 0, 0, 0.167);
+  width: 35rem;
+  height: 9rem;
+  background-color: rgba(255, 255, 255, 0.545);
+}
+.custom-table{
+    text-align:center;
+    width:35rem;
+    height:9rem;
+    border-radius:10px;
+    box-shadow:12px 12px rgba(0,0,0,0.167);
+}
+
+.links{
+  margin-right:35px;
+}
+nav{
+  mix-blend-mode:color-burn;
+}
+nav:hover{
+  cursor:pointer;
+}
+.container{
+  height:10rem;
+  width:20rem;
+  background-color:white;
+}
