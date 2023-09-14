@@ -13,16 +13,12 @@
 .box{
   margin-left:49%;
 }
-.box1{
-  background-color:white;
-  width:30rem;
-  height:28rem;
-}
+
 /* Default styles for .box1 */
 .box1 {
   background-color: white;
   width: 31rem;
-  height: 31rem;
+  height: 20rem;
 }
 
 /* Media query for screens smaller than 768px (adjust the breakpoint as needed) */
@@ -58,7 +54,7 @@
   margin-left: 30px;
   padding:6px;
   border-radius:10px;
-  box-shadow:10px 10px rgba(0, 0, 0, 0.167);
+  box-shadow:9px 9px rgba(0, 0, 0, 0.167);
   width: 35rem;
   height: 9rem;
   background-color: rgba(255, 255, 255, 0.545);
@@ -68,7 +64,7 @@
     width:35rem;
     height:9rem;
     border-radius:10px;
-    box-shadow:12px 12px rgba(0,0,0,0.167);
+    box-shadow:9px 9px rgba(0,0,0,0.167);
 }
 
 .links{
